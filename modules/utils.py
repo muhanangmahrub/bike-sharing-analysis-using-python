@@ -5,7 +5,7 @@ def sidebar_menu():
     st.sidebar.subheader("Pilih Halaman")
     menu = st.sidebar.radio(
         "Menu:",
-        options=("Data Overview", "Business Insight")
+        options=("Data Overview", "Business Insight", "Demand Clustering")
     )
     return menu
 

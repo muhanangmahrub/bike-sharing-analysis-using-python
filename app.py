@@ -3,6 +3,7 @@ from modules.data_loader import load_data
 from modules.data_overview import show_overview
 from modules.utils import sidebar_menu, date_filter
 from modules.business_insight import show_business_insights
+from modules.demand_clustering import show_demand_clustering
 
 st.set_page_config(page_title="Bike Sharing Dashboard", layout="wide", initial_sidebar_state="expanded")
 
@@ -14,3 +15,5 @@ if menu == "Data Overview":
     show_overview(filtered_day_df, filtered_hour_df)
 elif menu == "Business Insight":
     show_business_insights(filtered_day_df, filtered_hour_df)
+elif menu == "Demand Clustering":
+    show_demand_clustering(filtered_day_df)
