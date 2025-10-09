@@ -23,7 +23,7 @@ Pastikan sudah menginstal:
 
 ---
 
-## ⚙️ Instalasi
+## Instalasi
 
 1. **Extract file ZIP**
 2. **Buka terminal, lalu arahkan ke folder hasil ekstraksi**
@@ -47,7 +47,7 @@ Pastikan sudah menginstal:
 
 ---
 
-## ▶Menjalankan Dashboard Secara Lokal
+## Menjalankan Dashboard Secara Lokal
 
 1. Jalankan perintah berikut:
 
